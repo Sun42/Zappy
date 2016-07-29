@@ -1,0 +1,21 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include "buffer.h"
+
+
+int	main(int ac, char **av)
+{
+  char	*cmd;
+  t_msg	my_msg;
+  int	len;
+
+  init_buf_msg(&my_msg);
+  aff_cli(&my_msg);
+  cmd = "jesuisunechainede20char\n";
+  len = strlen(cmd);
+  printf("%i \¬");
+  save_cmd(&(my_msg), cmd, len,'R');
+  aff_cli(&my_msg);
+  return (0);
+}

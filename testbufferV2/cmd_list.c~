@@ -1,0 +1,59 @@
+#include <stdlib.h>
+
+/*
+** free the list! :)
+*/
+void		my_free_list(t_cmd **begin)
+{
+  t_list	*tmp;
+
+  while (*begin)
+    {
+      tmp = (*begin)->next;
+      free((*begin)->data);
+      free(*begin);
+      *begin = tmp;
+    }
+}
+
+
+void		my_put_in_list2(t_cmd **begin, char *data)
+{
+  t_list	*new_elem;
+
+  if ((new_elem = malloc(sizeof(*new_elem))) == NULL)
+    exit(-1);
+  new_elem->next = *begin;
+  new_elem->data = my_strdup(data);
+  *begin = new_elem;
+}
+
+int             my_list_size(t_cmd *begin)
+{
+  int           i;
+
+  i = 0;
+  while (begin != 0)
+    {
+      begin = begin->next;
+      i = i + 1;
+    }
+  return (i);
+}
+
+int	my_rev_list(t_list **begin)
+{
+  t_list	*next;
+  t_list        *prec;
+
+  next = 0;
+  prec = begin[0]->next;
+  while (prec != 0)
+    {
+      begin[0]->next = next;
+      next = *begin;
+      *begin = prec;
+      prec = begin[0]->next;
+    }
+  begin[0]->next = next;
+}

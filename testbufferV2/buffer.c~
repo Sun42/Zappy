@@ -1,0 +1,119 @@
+#include <stdlib.h>
+#include <strings.h>
+#include <stdio.h>
+#include "buffer.h"
+#include <string.h>
+
+void	add_cmd(t_cli *my_cli, char *str, int size, int is_complet);
+
+void	init_listcmd(t_cmd *my_cmd)
+{
+  my_cmd->timeval = -1;
+  my_cmd->indice_buf = -1;
+  my_cmd->len = -1;
+  my_cmd->cmd = NULL;
+  my_cmd->is_complet = 0;
+  my_cmd->next = NULL;
+}
+
+int	main()
+{
+  t_cli	*my_cli;
+  char	*cmd;
+
+  my_cli = malloc(sizeof(t_cli *));
+  my_cli->bufr = malloc(sizeof(t_buf *));
+  my_cli->listr = malloc(sizeof(t_cmd *));
+  my_cli->bufr->end = 0;
+  init_buf(my_cli->bufr);
+  init_listcmd(my_cli->listr);
+  cmd = "cmd1ncmd2";
+  /*parse_cmd(my_cli, cmd, strlen(cmd));*/
+  aff_cli(my_cli);
+  return (0);
+}
+
+/*
+** decoupe le buffer en commandes
+*/
+void	parse_cmd(t_cli *my_cli, char *str, int size)
+{
+  int	nbcmd;
+  int	complete;
+  int	taillecmd;
+  int	sum;
+
+  sum = 0;
+  nbcmd = count_cmd(str, size, &complete);
+  printf("Nombre de cmd %i, taille totale %i \n", nbcmd, size);
+  if (!complete)
+    printf("commande pas finie\n");
+  while (nbcmd)
+    {
+      taillecmd = my_strlenbuf(str) + 1;
+      printf("Taille de la cmd [%i] \n", taillecmd);
+      if (nbcmd == 1 && !complete)
+	{
+	  printf("size[%i] - sum[%i] = [%i]\n", size, sum, (size - sum));
+	  add_cmd(my_cli , str, size - sum, 0);
+	}
+      else
+	add_cmd(my_cli, str, taillecmd, 1);
+      str += taillecmd;
+      sum += taillecmd;
+      nbcmd--;
+    }
+}
+
+/*
+** recoit la commande decoupee
+*/
+void	add_cmd(t_cli *my_cli, char *str, int size, int is_complet)
+{
+  int	i;
+
+  i = 0;
+  printf("Size : %i ", size);
+  while (i < size)
+    {
+      putchar(str[i]);
+      i++;
+   }
+  printf("\n");
+}
+
+/*
+int	main(int ac, char **av)
+{
+  t_buf	my_buf;
+
+  init_buf(&my_buf);
+  add_buf(&my_buf, "1n");
+  aff_buf(&my_buf);
+  add_buf(&my_buf, "2\n");
+  aff_buf(&my_buf);
+  add_buf(&my_buf, "3n");
+  aff_buf(&my_buf);
+  add_buf(&my_buf, "4n");
+  aff_buf(&my_buf);
+  add_buf(&my_buf, "5n");
+  aff_buf(&my_buf);
+  turn_my_buf(&my_buf, 4, 2);
+  aff_buf(&my_buf);
+  add_buf(&my_buf, "yn");
+  aff_buf(&my_buf);
+ turn_my_buf(&my_buf, 6, 2);
+  aff_buf(&my_buf);
+  turn_my_buf(&my_buf, 8, 2);
+  aff_buf(&my_buf);
+  return (0);
+}
+*/
+
+
+/*
+ * cas ou la commande nes tpas fini
+ * cas ou la commande ne tiens pas sur le buffer
+ * cas ou buffer plein
+ * cas ou moitie de commande sur le buffer, seconde moitie sur le buffer malloce
+*/

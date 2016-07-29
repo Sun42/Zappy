@@ -1,0 +1,389 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/Zappy2009/!svn/ver/482/gui/src
+END
+read_server.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/Zappy2009/!svn/ver/473/gui/src/read_server.c
+END
+serv_cmd.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/396/gui/src/serv_cmd.c
+END
+infos_inventaire.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/Zappy2009/!svn/ver/480/gui/src/infos_inventaire.c
+END
+move_map.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/479/gui/src/move_map.c
+END
+init.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/Zappy2009/!svn/ver/479/gui/src/init.c
+END
+func_init_object.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/Zappy2009/!svn/ver/460/gui/src/func_init_object.c
+END
+minimap_utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/Zappy2009/!svn/ver/452/gui/src/minimap_utils.c
+END
+buf_add_onbuf.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/Zappy2009/!svn/ver/396/gui/src/buf_add_onbuf.c
+END
+free_all_struct.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/Zappy2009/!svn/ver/447/gui/src/free_all_struct.c
+END
+func_egg.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/396/gui/src/func_egg.c
+END
+func_print_perso.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/Zappy2009/!svn/ver/396/gui/src/func_print_perso.c
+END
+cmd_save.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/396/gui/src/cmd_save.c
+END
+func_object.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/Zappy2009/!svn/ver/479/gui/src/func_object.c
+END
+cmd_utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/Zappy2009/!svn/ver/396/gui/src/cmd_utils.c
+END
+move_teleport.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/Zappy2009/!svn/ver/430/gui/src/move_teleport.c
+END
+cmd_unsave.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/Zappy2009/!svn/ver/452/gui/src/cmd_unsave.c
+END
+cmd_access.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/Zappy2009/!svn/ver/396/gui/src/cmd_access.c
+END
+serv_pin.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/454/gui/src/serv_pin.c
+END
+minimap.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/Zappy2009/!svn/ver/396/gui/src/minimap.c
+END
+serv_pex.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/473/gui/src/serv_pex.c
+END
+broadcast.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/Zappy2009/!svn/ver/473/gui/src/broadcast.c
+END
+serv_pbc.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/465/gui/src/serv_pbc.c
+END
+serv_ebo.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/460/gui/src/serv_ebo.c
+END
+move.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/Zappy2009/!svn/ver/452/gui/src/move.c
+END
+blit_and_verif.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/Zappy2009/!svn/ver/482/gui/src/blit_and_verif.c
+END
+pos_perso.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/Zappy2009/!svn/ver/482/gui/src/pos_perso.c
+END
+buf_utils2.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/Zappy2009/!svn/ver/396/gui/src/buf_utils2.c
+END
+serv_eht.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/475/gui/src/serv_eht.c
+END
+func_xy_max.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/Zappy2009/!svn/ver/396/gui/src/func_xy_max.c
+END
+serv_tna.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/396/gui/src/serv_tna.c
+END
+event.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/Zappy2009/!svn/ver/479/gui/src/event.c
+END
+serv_pdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/475/gui/src/serv_pdr.c
+END
+serv_enw.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/396/gui/src/serv_enw.c
+END
+func_xalloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/Zappy2009/!svn/ver/456/gui/src/func_xalloc.c
+END
+serv_plv.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/475/gui/src/serv_plv.c
+END
+serv_pnw.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/473/gui/src/serv_pnw.c
+END
+serv_bct.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/465/gui/src/serv_bct.c
+END
+free_all.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/472/gui/src/free_all.c
+END
+serv_pic.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/475/gui/src/serv_pic.c
+END
+serv_pie.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/475/gui/src/serv_pie.c
+END
+serv_seg.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/465/gui/src/serv_seg.c
+END
+verif_team.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/Zappy2009/!svn/ver/482/gui/src/verif_team.c
+END
+func_init_ghost.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/Zappy2009/!svn/ver/460/gui/src/func_init_ghost.c
+END
+func_str.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/466/gui/src/func_str.c
+END
+x_func_sdl.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/Zappy2009/!svn/ver/460/gui/src/x_func_sdl.c
+END
+buf_add.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/Zappy2009/!svn/ver/396/gui/src/buf_add.c
+END
+serv_pgt.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/475/gui/src/serv_pgt.c
+END
+init_wood.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/Zappy2009/!svn/ver/460/gui/src/init_wood.c
+END
+buf_utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/Zappy2009/!svn/ver/396/gui/src/buf_utils.c
+END
+cmd_list.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/426/gui/src/cmd_list.c
+END
+buf_init.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/396/gui/src/buf_init.c
+END
+serv_edi.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/396/gui/src/serv_edi.c
+END
+aff_var_infos.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/Zappy2009/!svn/ver/482/gui/src/aff_var_infos.c
+END
+buf_add_overflow.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/Zappy2009/!svn/ver/396/gui/src/buf_add_overflow.c
+END
+serv_msz.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/459/gui/src/serv_msz.c
+END
+serv_pdi.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/454/gui/src/serv_pdi.c
+END
+map.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/Zappy2009/!svn/ver/473/gui/src/map.c
+END
+cmd_list2.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/Zappy2009/!svn/ver/396/gui/src/cmd_list2.c
+END
+serv_bvn.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/396/gui/src/serv_bvn.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/Zappy2009/!svn/ver/480/gui/src/main.c
+END
+func_init_clip.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/Zappy2009/!svn/ver/452/gui/src/func_init_clip.c
+END
+func_init_perso.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/Zappy2009/!svn/ver/460/gui/src/func_init_perso.c
+END
+socket.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/Zappy2009/!svn/ver/475/gui/src/socket.c
+END
+serv_ppo.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/Zappy2009/!svn/ver/475/gui/src/serv_ppo.c
+END
